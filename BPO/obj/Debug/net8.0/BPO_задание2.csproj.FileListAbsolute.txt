@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\BPO\bin\Debug\net8.0\BPO_задание2.exe
+C:\Users\Пользователь\source\repos\BPO\bin\Debug\net8.0\BPO_задание2.deps.json
+C:\Users\Пользователь\source\repos\BPO\bin\Debug\net8.0\BPO_задание2.runtimeconfig.json
+C:\Users\Пользователь\source\repos\BPO\bin\Debug\net8.0\BPO_задание2.dll
+C:\Users\Пользователь\source\repos\BPO\bin\Debug\net8.0\BPO_задание2.pdb
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.dll
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\refint\BPO_задание2.dll
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.pdb
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\BPO_задание2.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\BPO\obj\Debug\net8.0\ref\BPO_задание2.dll
