@@ -16,8 +16,11 @@ abstract class FractionBase
     // конструктор
     public FractionBase(long integerPart, ushort fractionalPart)
     {
-        this.integerPart = integerPart;
-        this.fractionalPart = fractionalPart;
+        // добавляем к целой части количество сотых больше 100
+        this.integerPart = integerPart + fractionalPart / 100;
+        
+        // остаток оставляем в дробной части
+        this.fractionalPart = (ushort)(fractionalPart % 100);
     }
 
     // абстрактные методы
@@ -130,7 +133,7 @@ class Program
             Console.WriteLine("Введите первую дробь");
             Console.Write("Целая часть: ");
             long int1 = Convert.ToInt64(Console.ReadLine());
-            Console.Write("Дробная часть: ");
+            Console.Write("Дробная часть (в сотых): ");
             ushort frac1 = Convert.ToUInt16(Console.ReadLine());
             Fraction f1 = new Fraction(int1, frac1);
             Console.WriteLine();
@@ -138,7 +141,7 @@ class Program
             Console.WriteLine("Введите вторую дробь");
             Console.Write("Целая часть: ");
             long int2 = Convert.ToInt64(Console.ReadLine());
-            Console.Write("Дробная часть: ");
+            Console.Write("Дробная часть (в сотых): ");
             ushort frac2 = Convert.ToUInt16(Console.ReadLine());
             Fraction f2 = new Fraction(int2, frac2);
 
