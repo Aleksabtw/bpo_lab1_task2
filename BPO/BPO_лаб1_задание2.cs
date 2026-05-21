@@ -16,8 +16,16 @@ abstract class FractionBase
     // конструктор
     public FractionBase(long integerPart, ushort fractionalPart)
     {
-        // добавляем к целой части количество сотых больше 100
-        this.integerPart = integerPart + fractionalPart / 100;
+        // Если число отрицательное
+        if (integerPart < 0)
+        {
+            this.integerPart = integerPart - fractionalPart / 100;
+        }
+        else
+        {
+            // добавляем к целой части количество сотых больше 100
+            this.integerPart = integerPart + fractionalPart / 100;
+        }
         
         // остаток оставляем в дробной части
         this.fractionalPart = (ushort)(fractionalPart % 100);
